@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Priority Engenharia</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-4 color-white" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Priority</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-principal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-principal">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold" >
+                        <a href="#home" class="nav-link ">
+                            <i class="bi bi-house-door me-1"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#quem_somos" class="nav-link">
+                            <i class="bi bi-person-vcard"></i>
+                            Quem somos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#servicos" class="nav-link">
+                            <i class="bi bi-gear"></i>
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#obras-realizadas" class="nav-link">
+                            <i class="bi bi-bricks"></i>
+                            Obras realizadas 
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#parceiros" class="nav-link">
+                            <i class="bi bi-people-fill"></i>
+                            Parceiros
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale_conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-scroll="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="home">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slides/20180510canteirodeobrasparte2.png" alt="">
+                    </div>
+                    <div class="carousel-item " data-bs-interval="3000">
+                        <img src="./images/slides/canteiro-de-obras-organizado.webp" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/slides/obras-598x390.jpg" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button"data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button"data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5" id="quem_somos">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 imagem-local">
+                            <img src="images/escritorio.jpg" class="d-block w-100 rounded" alt="foto respresentativa">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2>Sobre<span class="text-colored"> a nossa empresa</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit earum, ea quis magnam tempora modi ex suscipit recusandae doloremque beatae vel at rem ab similique praesentium. Saepe accusamus est soluta?
+                            </p>
+                            <h2 >Sobre<span class="text-colored"> as nossas instalações</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit earum, ea quis magnam tempora modi ex suscipit recusandae doloremque beatae vel at rem ab similique praesentium. Saepe accusamus est soluta?                            
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="nossa-equipe" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Nossa Equipe </h2>
+                </div>
+                <div class="row itens-nossa-equipe">
+                    <div class="card mb-3 mt-5" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                        <div class="col-lg-4">
+                            <img src="/images/nossaequipe 1.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-lg-6 ">
+                            <div class="card-body">
+                            <h5 class="card-title">João Silva</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo earum eaque facere? Omnis, veritatis numquam!</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 mt-5" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                        <div class="col-lg-4">
+                            <img src="images/nossaequipe 2.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card-body">
+                            <h5 class="card-title">Marcela Ketnout</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo earum eaque facere? Omnis, veritatis numquam!</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Serviços </h2>
+                </div>
+                <div class="row mt-4 itens-servico">
+                    <div class="col-lg-4">
+                        <img src="images/eventos/afinal-vale-a-pena-investir-em-uma-casa-para-vender.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-4 mt-5">
+                            Investimentos imobiliários
+                        </h3>
+                        <p class="mb-5">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, vitae facere ducimus eius, natus voluptatum atque dignissimos rerum, non culpa in at blanditiis fugiat dolores aliquid. Qui consectetur iure sint.
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/eventos/compatibilizacao-projetos-a-arquiteta-1.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-4 mt-5">
+                            Projetos
+                        </h3>
+                        <p class="mb-5">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, vitae facere ducimus eius, natus voluptatum atque dignissimos rerum, non culpa in at blanditiis fugiat dolores aliquid. Qui consectetur iure sint.
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="images/eventos/download.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="section-title text-colored fs-4 mt-5">
+                            Execução
+                        </h3>
+                        <p >
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, vitae facere ducimus eius, natus voluptatum atque dignissimos rerum, non culpa in at blanditiis fugiat dolores aliquid. Qui consectetur iure sint.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="obras-realizadas">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5 pt-5">
+                        Obras <span class="text-colored"> realizadas</span>
+                    </h2>
+                </div>
+                <div class="col-md-12 ">
+                        <div id="itens-obras">
+                            <div class="row text-center">
+                                <div class="col-lg-4 col-md-6 pt-5 pb-5">
+                                    <img class="d-block w-100" src="images/serviços/Casas/9D1F646EE2A731FF0A7495EBA4998371.webp" alt="Coca-cola" />
+                                    <h5 class="text-colored fw-bold mt-2">Casa</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </p>
+                                </div>
+                                <div class="col-lg-4 col-md-6 pt-5 pb-5">
+                                    <img class="d-block w-100" src="images/serviços/Casas/casas-modernas.jpg" alt="Suco">
+                                    <h5 class="text-colored fw-bold mt-2">Casa</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                    </p>
+                                </div>
+                                <div class="col-lg-4 col-md-6 pt-5 pb-5">
+                                    <img class="d-block w-100" src="images/serviços/Casas/download (1).jpg" alt="Coca-Cola">
+                                    <h5 class="text-colored fw-bold mt-2">Casa</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-lg-4  col-md-6 pt-5 pb-5">
+                                    <img class="d-block w-100" src="images/serviços/Casas/download.jpg" alt="Coca-Cola">
+                                    <h5 class="text-colored fw-bold mt-2">Casa</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-lg-4 col-md-6 pt-5 pb-5">
+                                    <img class="d-block w-100" src="images/serviços/Obras horizontais/Aeroporto-de-Dourados-1024x683.jpeg" alt="Coca-Cola">
+                                    <h5 class="text-colored fw-bold mt-2">Casa</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-lg-4 col-md-6 pt-5 pb-5">
+                                    <img class="d-block w-100" src="images/serviços/Obras horizontais/download (1).jpg" alt="Coca-Cola">
+                                    <h5 class="text-colored fw-bold mt-2">Casa</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-lg-4 col-md-6 pt-5 pb-5">
+                                    <img class="d-block w-100" src="images/serviços/Obras horizontais/download (2).jpg" alt="Coca-Cola">
+                                    <h5 class="text-colored fw-bold mt-2">Casa</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-lg-4 col-md-6 pt-5 pb-5">
+                                    <img class="d-block w-100" src="images/serviços/Obras verticais/download (2).jpg" alt="Coca-Cola">
+                                    <h5 class="text-colored fw-bold mt-2">Casa</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-lg-4 col-md-6 pt-5 pb-5">
+                                    <img class="d-block w-100" src="images/serviços/Obras verticais/download (1).jpg" alt="Coca-Cola">
+                                    <h5 class="text-colored fw-bold mt-2">Casa</h5>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5 ">
+            <div class="container">
+                <div class="row ">
+                    <h2 class="section-title text-center mb-5 pt-5">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row itens-contato ml-8 ">
+                    <div class="col-lg-7 mb-5">
+                        <div class="row redes-sociais ">
+                            <h3 class="section-title fs-4 text-colored pb-3">
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5 pb-2">
+                                    <a href="#"  class="nav-link ">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                    Facebook
+                                </a>
+                                </li>
+                                <li class="fs-5 pb-2">
+                                    <a href="#"  class="nav-link ">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                    Instagram
+                                    </a>
+                                </li>
+                                <li class="fs-5 pb-2">
+                                    <a href="#"  class="nav-link ">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                        whatsapp
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-center">
+                        <div class="row mapa">
+                                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3739819.9114338243!2d-51.44944418749995!3d-23.741391999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce416c91d8ffb7%3A0x4b2ddd8eb61ebf18!2sAuto%20Escola%20ABC%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1689117719452!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo n° 145, Bairro Bootstrap - São Paulo - SP 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

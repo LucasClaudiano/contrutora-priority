@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto, sans-serif;
+}
+.navbar{
+    background-color: rgb(23 78 60);
+}
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: rgb(255 197 80);
+}
+#cabecalho .nav .nav-link,
+.navbar-brand, 
+.navbar-brand:hover .nav-link.active:hover{
+    color: #fff;
+}
+.navbar-toggler{
+    background-color: #fff;
+}
+.carousel-item img{
+    width: 100%;
+    height: 85vh;
+}
+.text-colored{
+    color: rgb(23 78 60);
+}
+#home, #obras-realizadas{
+    background-color: rgb(219, 238, 232);
+}
+.itens-servico img{
+    height: 40vh;
+}
+#obras-realizadas img{
+    height: 35vh;
+    cursor: pointer;
+}
+.itens-nossa-equipe{
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+    justify-content: space-around;
+    
+}
+.itens-nossa-equipe img{
+    padding: 0.5em;
+    border-radius: 1em;
+    height: 25vh;
+    width: 23vh;
+}
+.itens-contato{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 10em;
+}
+.itens-contato ul li{
+    list-style: none;
+}
+
+
+@media (max-width: 767px){
+.carousel-item img
+{
+    height: 280px;
+}
+.itens-contato{
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+}
+.itens-nossa-equipe{
+    text-align: center;
+    }
+.mapa{
+    margin: 0;
+    width: 55vh;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:1180px){
+    .carousel-item img{
+        height: 600px;
+    }
+    .redes-sociais{
+        text-align: center;
+    }
+    .itens-nossa-equipe img{
+        width: 300px;
+    }
+    .itens-nossa-equipe{
+        text-align: center;
+    }
+    #obras-realizadas img{
+        height: 20vh;
+    }
+    .imagem-local img{
+    height: 24vh ;
+    }
+}
